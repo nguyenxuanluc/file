@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profiles</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Tăng lề hai bên */
+    .extra-wide-margin {
+        padding-left: 20rem; /* Cách lề trái rộng */
+        padding-right: 20rem; /* Cách lề phải rộng */
+    }
+
+    @media (max-width: 768px) {
+        .extra-wide-margin {
+            padding-left: 2rem; /* Lề nhỏ hơn cho màn hình nhỏ */
+            padding-right: 2rem;
+        }
+    }
+</style>
+</head>
+<body class="p-3">
+    <div class="profile-section container extra-wide-margin">
+        <h2>DAVID SMITHY</h2>
+        <p class="text-muted">Licensed Real Estate Broker</p>
+    
+ 
+ 
+  <section class="profile-section container">
+    <div class="row">
+    <div class="col-4">
+        
+      <img src="https://via.placeholder.com/100" alt="David Smithy" class="profile-picture">
+      
+    </div>
+    <div class="col-8">
+    <div class="row">
+        <div class="row">
+      <div class="col-6 mb-3">
+        <a href="#" class="btn btn-outline-secondary w-100">Company.com</a>
+      </div>
+      <div class="col-6 mb-3">
+        <a href="#" class="btn btn-outline-secondary w-100">Twitter</a>
+      </div>
+    
+     
+    </div>
+    <div class="row">
+        <div class="col-6 mb-3">
+            
+            <a href="tel:555555555" class="btn btn-outline-secondary w-100">555-555-555</a>
+          </div>
+      
+      <div class="col-6  mb-3">
+        <a href="#" class="btn btn-outline-secondary w-100">Instagram</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6 mb-3">
+        <a href="mailto:me@example.com" class="btn btn-outline-secondary w-100">me@example.com</a>
+      </div>
+     
+      <div class="col-6 mb-3">
+        <a href="#" class="btn btn-outline-secondary w-100">LinkedIn</a>
+      </div>
+    </div>
+    </div>
+</div>
+<div class="row mt-4">
+           
+    <div class="col-md-12 mb-2">
+        <h5>About</h5>
+        <!-- Dùng Bootstrap để tạo khung -->
+        <div class="border p-4 rounded shadow-sm bg-light">
+            
+            <p class="text-muted">
+                With in-depth market knowledge and a passion for delivering exceptional service, I strive to make buying or selling a home a seamless and rewarding experience...
+            </p>
+        </div>
+    </div>
+    
+    <div>
+      <h5>Discover Our Properties</h5>
+      <ul class="nav nav-tabs" id="propertyTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="for-sale-tab" data-bs-toggle="tab" data-bs-target="#for-sale" type="button" role="tab">For Sale</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="for-rent-tab" data-bs-toggle="tab" data-bs-target="#for-rent" type="button" role="tab">For Rent</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="propertyTabsContent">
+        <div class="tab-pane fade show active" id="for-sale" role="tabpanel">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card property-card">
+                <img src="avatar.png" class="rounded float-start" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">123 Main Street</h5>
+                  <span class="badge bg-primary">For Sale</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card property-card">
+                <img src="avatar.png" class="card-img-top" alt="Property">
+                <div class="card-body">
+                  <h5 class="card-title">789 Oak Street</h5>
+                  <span class="badge bg-primary">For Sale</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card property-card">
+                <img src="avatar.png" class="card-img-top" alt="Property">
+                <div class="card-body">
+                  <h5 class="card-title">101 Pine Lane</h5>
+                  <span class="badge bg-primary">For Sale</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="for-rent" role="tabpanel">
+          <p class="text-muted">No properties available for rent.</p>
+        </div>
+      </div>
+    </div>
+</div>
+  </section>
+</div>
+
+ 
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

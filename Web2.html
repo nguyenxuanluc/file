@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web2</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.bundle.min.js"></script>
+    <style>
+        /* Tăng lề hai bên */
+        .extra-wide-margin {
+            padding-left: 15rem;
+            padding-right: 15rem;
+        }
+
+        @media (max-width: 768px) {
+            .extra-wide-margin {
+                padding-left: 2rem; /* Lề nhỏ hơn cho màn hình nhỏ */
+                padding-right: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="profile-section container extra-wide-margin">
+        <div class="mt-4">
+          <img src="https://via.placeholder.com/100" alt="John Doe" class="profile-picture">
+          <h2>John Doe</h2>
+          <p class="text-muted">Designer | UX | UI</p>
+        </div>
+        
+       
+        <div class="row mt-4">
+           
+            <div class="col-md-6">
+                <h5>About Me</h5>
+                <!-- Dùng Bootstrap để tạo khung -->
+                <div class="border p-4 rounded shadow-sm bg-light">
+                    
+                    <p class="text-muted">
+                        I work as a User Experience (UX) and User Interface (UI) Designer. I am skilled in creating wireframes, interactive prototypes, and detailed user flows...
+                    </p>
+                </div>
+            </div>
+            
+           
+            <div class="col-md-6">
+                <h5>Contato</h5>
+               
+                <div class="d-flex flex-column gap-3">
+                    <a href="mailto:johndoe@email.com" class="btn btn-outline-secondary">johndoe@email.com</a>
+                    <a href="#" class="btn btn-outline-secondary">LinkedIn | Instagram</a>
+                    <a href="#" class="btn btn-outline-secondary">Github | Behance</a>
+                    <a href="tel:+1111111111" class="btn btn-outline-secondary">+1 111 111 1111</a>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="mt-4">
+            <h5>Professional Experience</h5>
+            <p class="text-muted">Company: Senior Designer</p>
+        </div>
+    </section>
+</body>
+</html>
